@@ -1,0 +1,34 @@
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# IDE та редактори
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# npm/yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Збірка (якщо будеш використовувати)
+dist/
+build/
+
+# Секрети
+.env
+.env.local
+
+# Кеш
+.cache/
+*.tmp
+
+# Coverage (якщо будеш тестувати)
+coverage/
