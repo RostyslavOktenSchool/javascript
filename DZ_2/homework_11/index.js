@@ -2,7 +2,7 @@
 // let x = 0;        // falsy 
 // let x = "";       // falsy 
 // let x = undefined;// falsy 
-let x = "hello";  // truthy 
+let x; 
 
 
 if (!x) {
